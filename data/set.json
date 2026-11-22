@@ -1,0 +1,14 @@
+{
+  "name": "Old Town",
+  "meta": { "face": "lantern", "listed": false },
+  "cards": [
+    { "key": "lantern:ferry-steps", "type": "lantern", "title": "Ferry Steps", "subtitle": "Harbor Road", "fact": "Lit at dusk since 1889", "rarity": "Common", "url": "https://example.org/lanterns/ferry-steps", "data": { "number": 1, "story": "The first lantern on the walk. Ferry crews trimmed its wick before the evening crossing." } },
+    { "key": "lantern:chandlers-corner", "type": "lantern", "title": "Chandler's Corner", "subtitle": "Rope Lane", "fact": "Burned whale oil until 1902", "rarity": "Common", "url": "https://example.org/lanterns/chandlers-corner", "data": { "number": 2, "story": "A candle maker kept this one lit to show his shop was open after dark." } },
+    { "key": "lantern:mill-bridge", "type": "lantern", "title": "Mill Bridge", "subtitle": "Weir Street", "fact": "Hangs over the water", "rarity": "Common", "url": "https://example.org/lanterns/mill-bridge", "data": { "number": 3, "story": "Its bracket was forged at the mill, and the river has never once reached it." } },
+    { "key": "lantern:market-cross", "type": "lantern", "title": "Market Cross", "subtitle": "Market Square", "fact": "Four panes, one for each road", "rarity": "Uncommon", "url": "https://example.org/lanterns/market-cross", "data": { "number": 4, "story": "Traders met under it to settle the day's accounts." } },
+    { "key": "lantern:bell-yard", "type": "lantern", "title": "Bell Yard", "subtitle": "Chapel Row", "fact": "Rings when the wind turns", "rarity": "Uncommon", "url": "https://example.org/lanterns/bell-yard", "data": { "number": 5, "story": "A small brass bell hangs from its frame and sounds in a north wind." } },
+    { "key": "lantern:tinkers-arch", "type": "lantern", "title": "Tinker's Arch", "subtitle": "Kettle Passage", "fact": "Patched with eleven metals", "rarity": "Uncommon", "url": "https://example.org/lanterns/tinkers-arch", "data": { "number": 6, "story": "Every repair used whatever the tinker had that week, and you can count them." } },
+    { "key": "lantern:harbor-light", "type": "lantern", "title": "Harbor Light", "subtitle": "The Long Quay", "fact": "Seen from two miles out", "rarity": "Rare", "url": "https://example.org/lanterns/harbor-light", "data": { "number": 7, "story": "The tallest on the walk. Boats still steer by it on foggy nights." } },
+    { "key": "lantern:the-last-wick", "type": "lantern", "title": "The Last Wick", "subtitle": "Lamplighter's Close", "fact": "Still lit by hand", "rarity": "Rare", "url": "https://example.org/lanterns/the-last-wick", "data": { "number": 8, "story": "The one lantern in town with no gas line. A neighbor lights it every evening." } }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "app": "lantern-walk",
+  "set": "old-town-lanterns",
+  "held": { "lantern": 5 },
+  "cards": [
+    { "key": "lantern:ferry-steps", "type": "lantern", "parent": null, "via": null, "collectedAt": "2026-10-03T18:12:00.000Z", "lastCollectedAt": "2026-10-03T18:12:00.000Z", "count": 1, "source": "anonymous" },
+    { "key": "lantern:chandlers-corner", "type": "lantern", "parent": null, "via": null, "collectedAt": "2026-10-03T18:31:00.000Z", "lastCollectedAt": "2026-10-03T18:31:00.000Z", "count": 1, "source": "anonymous" },
+    { "key": "lantern:market-cross", "type": "lantern", "parent": null, "via": null, "collectedAt": "2026-10-03T18:47:00.000Z", "lastCollectedAt": "2026-10-03T18:47:00.000Z", "count": 1, "source": "anonymous" },
+    { "key": "lantern:bell-yard", "type": "lantern", "parent": null, "via": null, "collectedAt": "2026-10-10T17:58:00.000Z", "lastCollectedAt": "2026-10-10T17:58:00.000Z", "count": 2, "source": "anonymous" },
+    { "key": "lantern:harbor-light", "type": "lantern", "parent": null, "via": null, "collectedAt": "2026-10-10T18:40:00.000Z", "lastCollectedAt": "2026-10-10T18:40:00.000Z", "count": 1, "source": "anonymous" }
+  ]
+}

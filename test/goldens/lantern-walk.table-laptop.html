@@ -1,0 +1,366 @@
+<div class="tt lantern-theme" style="--card-w: 176px; --gap: 6px;">
+<header class="tt-top">
+<div class="tt-top-in">
+<a class="tt-back" href="https://github.com/pincastFM/placecard-kit-public">
+<svg class="tt-i" viewBox="0 0 24 24" aria-hidden="true">
+<path d="m15 18-6-6 6-6">
+</path>
+</svg>
+<span>The kit</span>
+</a>
+<!--v-if-->
+<span class="tt-cnt" aria-live="polite">
+<b>5</b>
+<span class="tt-cl">Cards</span>
+<!--v-if-->
+</span>
+<div class="tt-top-sl">
+<div class="tt-search is-open" role="search">
+<button class="tt-s-btn" type="button" aria-label="Search">
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<circle cx="11" cy="11" r="8">
+</circle>
+<path d="m21 21-4.3-4.3">
+</path>
+</svg>
+</button>
+<input type="search" placeholder="Name" aria-label="Name" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+<button class="tt-s-x" type="button" aria-label="Clear" hidden="">
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M18 6 6 18">
+</path>
+<path d="m6 6 12 12">
+</path>
+</svg>
+</button>
+</div>
+<div class="tt-slrow">
+<div class="tt-ruler" style="--p: 38.71%;">
+<input type="range" min="56" max="366" step="1" aria-label="Card size" aria-valuetext="2 across">
+<span class="tt-tk" style="left: calc(7px + 0.1774 * (100% - 14px));">
+<span>3</span>
+</span>
+<span class="tt-tk" style="left: calc(7px + 0.3032 * (100% - 14px));">
+<span>2</span>
+</span>
+<span class="tt-tk is-on" style="left: calc(7px + 0.3871 * (100% - 14px));">
+<span>2</span>
+</span>
+<span class="tt-tk" style="left: calc(7px + 0.5935 * (100% - 14px));">
+<span>1</span>
+</span>
+</div>
+<output class="tt-acr">2×</output>
+</div>
+</div>
+<button class="tt-stk" type="button" aria-pressed="false">
+<svg class="tt-i" viewBox="0 0 24 24" aria-hidden="true">
+<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z">
+</path>
+<path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65">
+</path>
+<path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65">
+</path>
+</svg>
+<span>Stack</span>
+</button>
+</div>
+</header>
+<div class="tt-strip">
+<nav class="tt-ledger" aria-label="Sets">
+<button class="tt-lg" type="button" data-lg="set:old-town-lanterns" style="--app: #B4532A;" aria-current="true" aria-label="Old Town, 5 of 8">
+<span class="tt-lg-top">
+<span class="tt-lg-name">
+<i>
+</i>OLD TOWN</span>
+<span class="tt-lg-fig">
+<b>5</b>/8</span>
+</span>
+<span class="tt-bar" style="--n: 8; background: linear-gradient(90deg,var(--chrome) 0.000% 12.500%,var(--chrome) 12.500% 25.000%,var(--line-2) 25.000% 37.500%,var(--chrome) 37.500% 50.000%,var(--chrome) 50.000% 62.500%,var(--line-2) 62.500% 75.000%,var(--chrome) 75.000% 87.500%,var(--line-2) 87.500% 100.000%);">
+</span>
+</button>
+</nav>
+<div class="tt-strip-rail">
+<div class="tt-rail">
+<div class="tt-seg" role="radiogroup" aria-label="Group">
+<button type="button" role="radio" aria-checked="true">Set</button>
+<button type="button" role="radio" aria-checked="false">App</button>
+<button type="button" role="radio" aria-checked="false">Kind</button>
+<button type="button" role="radio" aria-checked="false">Rarity</button>
+<button type="button" role="radio" aria-checked="false">None</button>
+</div>
+<button class="tt-chip" type="button" data-k="missing" aria-pressed="false">
+<!--v-if-->
+<!--v-if--> Missing<span class="tt-v">3</span>
+</button>
+<button class="tt-chip" type="button" data-k="rarity" aria-haspopup="true" aria-expanded="false">
+<!--v-if-->
+<!--v-if--> Rarity<!--v-if-->
+</button>
+<button class="tt-chip" type="button" data-k="sort" aria-haspopup="true" aria-expanded="false">
+<!--v-if-->
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<path d="m3 16 4 4 4-4">
+</path>
+<path d="M7 20V4">
+</path>
+<path d="m21 8-4-4-4 4">
+</path>
+<path d="M17 4v16">
+</path>
+</svg> Newest<!--v-if-->
+</button>
+<!--v-if-->
+</div>
+</div>
+</div>
+<main class="tt-main">
+<div class="tt-groups is-solo">
+<section class="tt-grp" data-sec="set:old-town-lanterns">
+<button class="tt-bx" type="button" data-g="set:old-town-lanterns" style="--app: #B4532A;" aria-expanded="true" aria-label="Old Town, stack">
+<span class="tt-bx-row">
+<span class="tt-bx-name">OLD TOWN</span>
+<!--v-if-->
+<span class="tt-bx-end">
+<!--v-if-->
+<span class="tt-bx-fig">
+<b>5</b>
+<i> of 8</i>
+<!--v-if-->
+</span>
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z">
+</path>
+<path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65">
+</path>
+<path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65">
+</path>
+</svg>
+</span>
+</span>
+<span class="tt-bar" style="--n: 8; background: linear-gradient(90deg,var(--chrome) 0.000% 12.500%,var(--chrome) 12.500% 25.000%,var(--line-2) 25.000% 37.500%,var(--chrome) 37.500% 50.000%,var(--chrome) 50.000% 62.500%,var(--line-2) 62.500% 75.000%,var(--chrome) 75.000% 87.500%,var(--line-2) 87.500% 100.000%);">
+</span>
+</button>
+<div class="tt-grid">
+<div class="tt-cell" data-id="lantern-walk:old-town-lanterns:lantern:harbor-light" data-face="lantern" data-held="true">
+<div class="ttf ttf-front ttf-destination ttf-t-base ttf-c20 ttf-typo" lang="en" data-face="lantern" data-held="true" data-foil="false" data-id="lantern-walk:old-town-lanterns:lantern:harbor-light" style="--ac: #b4532a; --dp: #9d4a28; --lw: 6; --tl: 1;">
+<span class="ttf-card">
+<!-- Front, Treehopper print (cards.css .th-card, SpeciesCard.vue, BinderTile.vue) -->
+<!-- Front, C20 without a photograph: the typographic face (LLStopCard.vue:36-40) -->
+<span class="ttf-face">
+<span class="ttf-art is-typo">
+<span class="ttf-chip">OLD TOWN · <span class="ttf-no">No. 07</span>
+</span>
+<span class="ttf-mark" aria-hidden="true">07</span>
+<span class="ttf-typo-in">
+<span class="ttf-typo-type">The Long Quay</span>
+<span class="ttf-typo-name">Harbor Light</span>
+<span class="ttf-typo-fact">Seen from two miles out</span>
+</span>
+</span>
+<span class="ttf-grain" aria-hidden="true">
+</span>
+</span>
+<!--v-if-->
+</span>
+</div>
+<button class="tt-hit" type="button" aria-label="Harbor Light, Old Town">
+</button>
+</div>
+<div class="tt-cell" data-id="lantern-walk:old-town-lanterns:lantern:bell-yard" data-face="lantern" data-held="true">
+<div class="ttf ttf-front ttf-destination ttf-t-base ttf-c20 ttf-typo" lang="en" data-face="lantern" data-held="true" data-foil="false" data-id="lantern-walk:old-town-lanterns:lantern:bell-yard" style="--ac: #b4532a; --dp: #9d4a28; --lw: 4; --tl: 1;">
+<span class="ttf-card">
+<!-- Front, Treehopper print (cards.css .th-card, SpeciesCard.vue, BinderTile.vue) -->
+<!-- Front, C20 without a photograph: the typographic face (LLStopCard.vue:36-40) -->
+<span class="ttf-face">
+<span class="ttf-art is-typo">
+<span class="ttf-chip">OLD TOWN · <span class="ttf-no">No. 05</span>
+</span>
+<span class="ttf-mark" aria-hidden="true">05</span>
+<span class="ttf-typo-in">
+<span class="ttf-typo-type">Chapel Row</span>
+<span class="ttf-typo-name">Bell Yard</span>
+<span class="ttf-typo-fact">Rings when the wind turns</span>
+</span>
+</span>
+<span class="ttf-grain" aria-hidden="true">
+</span>
+</span>
+<!--v-if-->
+</span>
+</div>
+<button class="tt-hit" type="button" aria-label="Bell Yard, Old Town">
+</button>
+</div>
+<div class="tt-cell" data-id="lantern-walk:old-town-lanterns:lantern:market-cross" data-face="lantern" data-held="true">
+<div class="ttf ttf-front ttf-destination ttf-t-base ttf-c20 ttf-typo" lang="en" data-face="lantern" data-held="true" data-foil="false" data-id="lantern-walk:old-town-lanterns:lantern:market-cross" style="--ac: #b4532a; --dp: #9d4a28; --lw: 6; --tl: 1;">
+<span class="ttf-card">
+<!-- Front, Treehopper print (cards.css .th-card, SpeciesCard.vue, BinderTile.vue) -->
+<!-- Front, C20 without a photograph: the typographic face (LLStopCard.vue:36-40) -->
+<span class="ttf-face">
+<span class="ttf-art is-typo">
+<span class="ttf-chip">OLD TOWN · <span class="ttf-no">No. 04</span>
+</span>
+<span class="ttf-mark" aria-hidden="true">04</span>
+<span class="ttf-typo-in">
+<span class="ttf-typo-type">Market Square</span>
+<span class="ttf-typo-name">Market Cross</span>
+<span class="ttf-typo-fact">Four panes, one for each road</span>
+</span>
+</span>
+<span class="ttf-grain" aria-hidden="true">
+</span>
+</span>
+<!--v-if-->
+</span>
+</div>
+<button class="tt-hit" type="button" aria-label="Market Cross, Old Town">
+</button>
+</div>
+<div class="tt-cell" data-id="lantern-walk:old-town-lanterns:lantern:chandlers-corner" data-face="lantern" data-held="true">
+<div class="ttf ttf-front ttf-destination ttf-t-base ttf-c20 ttf-typo" lang="en" data-face="lantern" data-held="true" data-foil="false" data-id="lantern-walk:old-town-lanterns:lantern:chandlers-corner" style="--ac: #b4532a; --dp: #9d4a28; --lw: 10; --tl: 1;">
+<span class="ttf-card">
+<!-- Front, Treehopper print (cards.css .th-card, SpeciesCard.vue, BinderTile.vue) -->
+<!-- Front, C20 without a photograph: the typographic face (LLStopCard.vue:36-40) -->
+<span class="ttf-face">
+<span class="ttf-art is-typo">
+<span class="ttf-chip">OLD TOWN · <span class="ttf-no">No. 02</span>
+</span>
+<span class="ttf-mark" aria-hidden="true">02</span>
+<span class="ttf-typo-in">
+<span class="ttf-typo-type">Rope Lane</span>
+<span class="ttf-typo-name">Chandler's Corner</span>
+<span class="ttf-typo-fact">Burned whale oil until 1902</span>
+</span>
+</span>
+<span class="ttf-grain" aria-hidden="true">
+</span>
+</span>
+<!--v-if-->
+</span>
+</div>
+<button class="tt-hit" type="button" aria-label="Chandler's Corner, Old Town">
+</button>
+</div>
+<div class="tt-cell" data-id="lantern-walk:old-town-lanterns:lantern:ferry-steps" data-face="lantern" data-held="true">
+<div class="ttf ttf-front ttf-destination ttf-t-base ttf-c20 ttf-typo" lang="en" data-face="lantern" data-held="true" data-foil="false" data-id="lantern-walk:old-town-lanterns:lantern:ferry-steps" style="--ac: #b4532a; --dp: #9d4a28; --lw: 5; --tl: 1;">
+<span class="ttf-card">
+<!-- Front, Treehopper print (cards.css .th-card, SpeciesCard.vue, BinderTile.vue) -->
+<!-- Front, C20 without a photograph: the typographic face (LLStopCard.vue:36-40) -->
+<span class="ttf-face">
+<span class="ttf-art is-typo">
+<span class="ttf-chip">OLD TOWN · <span class="ttf-no">No. 01</span>
+</span>
+<span class="ttf-mark" aria-hidden="true">01</span>
+<span class="ttf-typo-in">
+<span class="ttf-typo-type">Harbor Road</span>
+<span class="ttf-typo-name">Ferry Steps</span>
+<span class="ttf-typo-fact">Lit at dusk since 1889</span>
+</span>
+</span>
+<span class="ttf-grain" aria-hidden="true">
+</span>
+</span>
+<!--v-if-->
+</span>
+</div>
+<button class="tt-hit" type="button" aria-label="Ferry Steps, Old Town">
+</button>
+</div>
+</div>
+</section>
+<!--v-if-->
+</div>
+</main>
+<div class="tt-dock">
+<div class="tt-rail">
+<div class="tt-seg" role="radiogroup" aria-label="Group">
+<button type="button" role="radio" aria-checked="true">Set</button>
+<button type="button" role="radio" aria-checked="false">App</button>
+<button type="button" role="radio" aria-checked="false">Kind</button>
+<button type="button" role="radio" aria-checked="false">Rarity</button>
+<button type="button" role="radio" aria-checked="false">None</button>
+</div>
+<button class="tt-chip" type="button" data-k="missing" aria-pressed="false">
+<!--v-if-->
+<!--v-if--> Missing<span class="tt-v">3</span>
+</button>
+<button class="tt-chip" type="button" data-k="rarity" aria-haspopup="true" aria-expanded="false">
+<!--v-if-->
+<!--v-if--> Rarity<!--v-if-->
+</button>
+<button class="tt-chip" type="button" data-k="sort" aria-haspopup="true" aria-expanded="false">
+<!--v-if-->
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<path d="m3 16 4 4 4-4">
+</path>
+<path d="M7 20V4">
+</path>
+<path d="m21 8-4-4-4 4">
+</path>
+<path d="M17 4v16">
+</path>
+</svg> Newest<!--v-if-->
+</button>
+<div class="tt-search" role="search">
+<button class="tt-s-btn" type="button" aria-label="Search">
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<circle cx="11" cy="11" r="8">
+</circle>
+<path d="m21 21-4.3-4.3">
+</path>
+</svg>
+</button>
+<input type="search" placeholder="Name" aria-label="Name" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+<button class="tt-s-x" type="button" aria-label="Clear" hidden="">
+<svg class="tt-i tt-i16" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M18 6 6 18">
+</path>
+<path d="m6 6 12 12">
+</path>
+</svg>
+</button>
+</div>
+</div>
+<div class="tt-slrow">
+<div class="tt-ruler" style="--p: 38.71%;">
+<input type="range" min="56" max="366" step="1" aria-label="Card size" aria-valuetext="2 across">
+<span class="tt-tk" style="left: calc(7px + 0.1774 * (100% - 14px));">
+<span>3</span>
+</span>
+<span class="tt-tk" style="left: calc(7px + 0.3032 * (100% - 14px));">
+<span>2</span>
+</span>
+<span class="tt-tk is-on" style="left: calc(7px + 0.3871 * (100% - 14px));">
+<span>2</span>
+</span>
+<span class="tt-tk" style="left: calc(7px + 0.5935 * (100% - 14px));">
+<span>1</span>
+</span>
+</div>
+<output class="tt-acr">2×</output>
+</div>
+</div>
+<!--v-if-->
+<!--v-if-->
+<div class="tt-stage" role="dialog" aria-modal="true" aria-label="Card">
+<div class="tt-st-bg">
+</div>
+<button class="tt-st-x" type="button" aria-label="Close">
+<svg class="tt-i" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M18 6 6 18">
+</path>
+<path d="m6 6 12 12">
+</path>
+</svg>
+</button>
+<div class="tt-st-col" style="--cw: 337px;">
+<!--v-if-->
+<div class="tt-st-wrap">
+<div class="tt-st-card" role="button" tabindex="0" aria-label="Flip">
+</div>
+</div>
+<!--v-if-->
+</div>
+</div>
+</div>
