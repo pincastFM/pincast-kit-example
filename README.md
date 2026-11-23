@@ -19,7 +19,7 @@ Open http://localhost:5173. Five sample cards are on the table, and three more w
 
 ## Go live
 
-Every Pincast key is live, so anything you write with one is real. [Test and live](https://docs.pincast.fm/concepts/test-and-live) covers how to get a key and how to keep experiments out of sight.
+A live key writes real data, and no API call deletes it. [Test and live](https://docs.pincast.fm/concepts/test-and-live) covers how to get a key and how to keep experiments out of sight.
 
 1. Copy the settings file, then put your key in `PINCAST_KEY`:
 
